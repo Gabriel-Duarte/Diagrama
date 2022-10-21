@@ -12,7 +12,7 @@ Totem -> Api ++ : /api2/Sync/PostSectorClothing
 Api -> Azure ++ : Coalabus/Eventotagcliente
 Azure -> Externa ++: /api/Tags/eventotagclienteconsumer
 Externa -> Banco ++: Insere na dbo.TAGSEVENTOCLIENTE
-Externa <-- Banco --:
-Azure <-- Externa --:
+Externa <-- Banco --: Gabriel Teste
+Azure <-- Externa --: Gabriel Teste
 @enduml
 
